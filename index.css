@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container {
+  background-color: rgb(75, 62, 62);
+  height: 400px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.rotate-45 {
+  transform: rotate(45deg);
+  width: 200px;
+  height: 200px;
+
+  border-top: 20px #d8595f solid;
+  border-bottom: 20px rgb(92, 102, 241) solid;
+  border-right: 20px rgb(210, 210, 252) solid;
+  border-left: 20px rgb(87, 134, 95) solid;
+  position: absolute;
+}
+h2 {
+  transform: rotate(-45deg);
+  font-family: "Roboto";
+  color: white;
+  font-weight: 800;
+
+  padding-top: 32px;
+  padding-right: 30px;
+}
+p {
+  transform: rotate(-45deg);
+  font-family: "Roboto";
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  padding-left: 10px;
+}
+.symbol {
+  color: orangered;
+}
