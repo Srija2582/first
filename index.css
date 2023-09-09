@@ -5,6 +5,8 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  margin: 0px;
+  padding: 0px;
 }
 .container {
   background-color: rgb(75, 62, 62);
