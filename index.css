@@ -17,7 +17,7 @@ body {
   justify-content: center;
   position: relative;
 }
-.rotate-45 {
+.rotate-45-degrees {
   transform: rotate(45deg);
   width: 200px;
   height: 200px;
